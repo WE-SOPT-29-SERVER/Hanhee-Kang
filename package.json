@@ -1,0 +1,22 @@
+{
+  "name": "hanhee-kang",
+  "version": "1.0.0",
+  "description": "![github_강한희_ver1](https://user-images.githubusercontent.com/29723695/135609658-dbe96a80-aba4-4658-b99c-77c152512074.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WE-SOPT-29-SERVER/Hanhee-Kang.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WE-SOPT-29-SERVER/Hanhee-Kang/issues"
+  },
+  "homepage": "https://github.com/WE-SOPT-29-SERVER/Hanhee-Kang#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
