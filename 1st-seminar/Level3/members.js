@@ -37,3 +37,5 @@ const members = [
   { name: "최진영", part: "Server", group: "YB" },
   { name: "허유정", part: "Server", group: "YB" },
 ];
+
+module.exports = members;

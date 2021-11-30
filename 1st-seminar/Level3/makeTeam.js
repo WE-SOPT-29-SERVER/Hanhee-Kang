@@ -4,7 +4,7 @@
  * @desc 조건: OB, YB 비율 오차범위를 최소한으로 유지하며 코드 작성
  */
 
-import members from "./members.js";
+const members = require("./members");
 
 // yb, ob 구분하기
 let ybList = members.filter((member) => member.group === "YB");
@@ -47,13 +47,15 @@ const makeTeam = () => {
       teams[i % teamCount].push(ybList[i]);
     }
   }
+  // 결과 출력
+  for (let team in teams) {
+    console.log("=================");
+    console.log(Number(team) + 1, "조");
+    teams[team].forEach((member) => {
+      console.log(`${member.name} (${member.group})`);
+    });
+  }
+  console.log("=================");
 };
 
-// 결과 출력
-for (let team in teams) {
-  console.log(Number(team) + 1, "조");
-  teams[team].forEach((member) => {
-    console.log(`${member.name} (${member.group})`);
-  });
-}
-console.log("=================");
+makeTeam();
