@@ -1,1 +1,0 @@
-const moduleName = require("./module");
