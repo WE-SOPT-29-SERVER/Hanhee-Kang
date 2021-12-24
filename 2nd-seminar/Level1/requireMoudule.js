@@ -1,0 +1,1 @@
+const moduleName = require("./module");
